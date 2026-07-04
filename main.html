@@ -8,60 +8,89 @@
 
 <body>
 
-   <div class="profile-container">
+   <div class="container">
+        <div class="header">
+            <!-- Using your uploaded image as placeholder -->
+            <img src="/mnt/data/unnamed" alt="Profile Photo">
+            <h1>Your Full Name</h1>
+            <p>Frontend Developer | UI/UX Enthusiast</p>
+            <div class="note">Note: Replace the image above with your actual photo</div>
+        </div>
 
-        <!-- Profile Image -->
-        <img 
-            src="https://via.placeholder.com/150" 
-            alt="Profile Image"
-        >
+        <div class="section">
+            <h2><i class="fas fa-user"></i>Name</h2>
+            <div class="info-item">[Enter Your Full Name Here]</div>
+        </div>
 
-        <!-- Name -->
-        <h1>Vaishnavi Panchal</h1>
+        <div class="section">
+            <h2><i class="fas fa-envelope"></i>Email</h2>
+            <div class="info-item">[Enter Your Email Address Here]</div>
+        </div>
 
-        <!-- About -->
-        <p>
-            I am a passionate web developer interested in creating
-            responsive and user-friendly websites.
-        </p>
+        <div class="section">
+            <h2><i class="fas fa-briefcase"></i>Profile</h2>
+            <div class="info-item">[Enter the profile/role you are applying for]</div>
+        </div>
 
-        <!-- Skills -->
-        <section id="skills">
-            <h2>Skills</h2>
-
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Git & GitHub</li>
-            </ul>
-        </section>
-
-        <!-- Projects -->
-        <section id="projects">
-            <h2>Projects</h2>
-
-            <ul>
-                <li>Portfolio Website</li>
-                <li>Weather App</li>
-                <li>To-Do List App</li>
-                <li>Blog Website</li>
-            </ul>
-        </section>
-
-        <!-- Contact -->
-        <section id="contact">
-            <h2>Contact</h2>
-
+        <div class="section">
+            <h2><i class="fas fa-address-card"></i>About me</h2>
             <p>
-                LinkedIn:
-                <a href="https://www.linkedin.com/" target="_blank">
-                    Visit Profile
-                </a>
+                [Write a brief description of yourself here. Example: Detail-oriented developer with 2+ years 
+                of experience in building responsive web apps. Passionate about clean code and user experience.]
             </p>
-        </section>
+        </div>
 
+        <div class="section">
+            <h2><i class="fas fa-code"></i>Skills</h2>
+            
+            <div class="skill">
+                <div class="skill-header">
+                    <span class="skill-name"><i class="fab fa-html5"></i> HTML/CSS</span>
+                    <span>95%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-level" style="width: 95%"></div></div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-header">
+                    <span class="skill-name"><i class="fab fa-js"></i> JavaScript</span>
+                    <span>90%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-level" style="width: 90%"></div></div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-header">
+                    <span class="skill-name"><i class="fab fa-react"></i> React</span>
+                    <span>80%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-level" style="width: 80%"></div></div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-header">
+                    <span class="skill-name"><i class="fab fa-python"></i> Python</span>
+                    <span>70%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-level" style="width: 70%"></div></div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-header">
+                    <span class="skill-name"><i class="fas fa-database"></i> SQL</span>
+                    <span>60%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-level" style="width: 60%"></div></div>
+            </div>
+
+            <div class="badges">
+                <span class="badge"><i class="fab fa-git-alt"></i> Git</span>
+                <span class="badge"><i class="fas fa-mobile-alt"></i> Responsive Design</span>
+                <span class="badge"><i class="fas fa-bug"></i> Problem Solving</span>
+                <span class="badge"><i class="fas fa-users"></i> Team Work</span>
+                <span class="badge"><i class="fas fa-comments"></i> Communication</span>
+            </div>
+        </div>
     </div>
 </body>
 </html>
